@@ -1,12 +1,9 @@
 html {
-  display: block;
   box-sizing: border-box;
-  width: 1920px;
 }
 
 body {
   margin: 0;
-  padding: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
@@ -90,4 +87,28 @@ body {
   height: 3px;
   background-color: var(--white-color);
   margin-bottom: 4px;
+}
+.burger__line:last-child {
+  margin-bottom: 0;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  max-width: 734px;
+  margin: 0 auto;
+  color: var(--white-color);
+}
+
+.h4 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
