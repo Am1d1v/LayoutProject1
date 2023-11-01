@@ -1,13 +1,102 @@
 // font-family: 'Open Sans', sans-serif
 // font-family: 'Oswald', sans-serif
 
-body
+html
     display: block
     box-sizing: border-box
-    margin: 0
-    padding: 0
     width: 1920px
 
+body
+    margin: 0
+    padding: 0
+    font-family: 'Oswald', sans-serif
+    font-weight: 400
+
+:root
+    --accent-color: #f7654a
+    --dark-color: #404149
+    --grey-color: #999
+    --white-color: #fff
+    --background-color: #e5e5e5        
+
+.text-h2
+    font-family: 'Oswald'
+    font-weight: 500
+    font-style: 36px
+    text-transform: uppercase    
+
+.text-h3
+    font-family: 'Oswald'
+    font-weight: 500
+    font-style: 24px
+     
+
+.text-h4
+    font-family: 'Oswald'
+    font-weight: 500
+    font-style: 21px
+     
+.text-p
+    font-family: 'Open sans', sans-serif
+    font-size: 16px
+    
+.text-p-reviews
+    font-family: 'Open sans', sans-serif
+    font-size: 14px
+    line-height: 21px
+
+.container
+    margin: 0 auto
+    max-width: 1110px
+    
+
 .header
-    font-size: 30px
-    color: rgba(0, 0, 0, 0.9 )
+    min-height: 740px
+    background-image: url(../img/Rectangle.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        padding-top: 20px
+        margin-bottom: 112px
+
+
+.logo
+    width: 60px
+    height: 60px
+
+.burger
+    width: 50px
+    height: 50px
+    cursor: pointer
+    background-color: var(--accent-color)
+    border: 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    &__line
+        display: block
+        width: 21px
+        height: 3px
+        background-color: var(--white-color)
+        margin-bottom: 4px
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
