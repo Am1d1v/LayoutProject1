@@ -283,6 +283,11 @@ img {
   border: none;
   cursor: pointer;
 }
+@media screen and (max-width: 500px) {
+  .request__btn {
+    margin-top: 15px;
+  }
+}
 .request__btn-text {
   margin-left: 15px;
   text-transform: uppercase;
@@ -291,7 +296,7 @@ img {
 }
 @media screen and (max-width: 500px) {
   .request__btn {
-    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 .request__h4 {
@@ -315,6 +320,7 @@ img {
 }
 
 .services {
+  padding: 100px 0;
   text-align: center;
 }
 .services-icon {
@@ -324,10 +330,25 @@ img {
 .services__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 .services__grid-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
+  color: #000;
+}
+@media screen and (max-width: 430px) {
+  .services__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.services-h2 {
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+.services-h4 {
+  max-width: 172px;
 }/*# sourceMappingURL=style.css.map */
