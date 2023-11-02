@@ -265,7 +265,6 @@ img {
 }
 .request {
   display: flex;
-  width: 100%;
   background-color: var(--accent-color);
   justify-content: space-around;
   align-items: center;
@@ -281,6 +280,8 @@ img {
 .request__btn {
   display: flex;
   padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 .request__btn-text {
   margin-left: 15px;
@@ -296,10 +297,14 @@ img {
 .request__h4 {
   color: #fff;
   font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 .request__h5 {
   color: #fff;
   font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 500px) {
   .request {
@@ -307,4 +312,22 @@ img {
     justify-content: center;
     align-items: center;
   }
+}
+
+.services {
+  text-align: center;
+}
+.services-icon {
+  width: 60px;
+  height: 60px;
+}
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services__grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
