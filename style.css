@@ -426,7 +426,7 @@ img {
 }
 
 .partners {
-  background-color: #5a5a5a;
+  background-color: #3f3f3f;
   text-align: center;
   min-height: 200px;
 }
@@ -454,4 +454,17 @@ img {
   .partners__item {
     margin-top: 20px;
   }
+}
+
+.reviews {
+  padding: 100px 0;
+}
+.reviews h2 {
+  text-align: center;
+}
+.reviews-span {
+  color: var(--accent-color);
+}
+.reviews-p {
+  color: var(--grey-color);
 }/*# sourceMappingURL=style.css.map */
