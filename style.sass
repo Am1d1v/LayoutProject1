@@ -309,6 +309,12 @@ img
     &-p
         color: var(--grey-color)    
         max-width: 730px
+    &__items
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin: 0 15px    
     &__item
         &-close
             &::before
@@ -328,6 +334,6 @@ img
                 background-image: url(../img/PolygonClose.png)
                 background-repeat: no-repeat
                 margin-right: 5px
-                transform: rotate(90deg)        
+                transform: rotate(-90deg)        
             
 
