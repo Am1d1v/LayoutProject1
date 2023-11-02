@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 :root {
   --accent-color: #f7654a;
   --dark-color: #404149;
@@ -121,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .about {
   min-height: 1080px;
   position: relative;
+  padding-top: 250px;
 }
 .about__grid {
   display: grid;
@@ -135,13 +141,11 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 1280px) {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 430px) {
   .about__grid {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
   }
 }
 .about__h4 {
@@ -165,6 +169,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
 }
+.about__flex {
+  display: flex;
+}
+.about__flex-item {
+  max-width: 350px;
+  margin-right: 30px;
+}
+.about__flex-item:last-child {
+  margin-right: 0;
+}
 
 .info {
   position: absolute;
@@ -186,4 +200,9 @@ h1, h2, h3, h4, h5, h6 {
   .info {
     max-height: 1000px;
   }
+}
+
+.project-h2 {
+  text-align: center;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=style.css.map */
