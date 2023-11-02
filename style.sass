@@ -334,6 +334,26 @@ img
                 background-image: url(../img/PolygonClose.png)
                 background-repeat: no-repeat
                 margin-right: 5px
-                transform: rotate(-90deg)        
+                transform: rotate(-90deg)
+                
+.partners
+    background-color: #5a5a5a                            
+    text-align: center
+    min-height: 200px
+    &-h2
+        color: #fff
+        padding-top:30px        
+    &__flex
+        display: flex
+        flex-direction: row
+        margin: 40px
+        flex-wrap: wrap
+        @media screen and (max-width: 1150px)
+            flex-direction: column
+            align-items: center
+    &__item
+        margin: 0 20px 10px 20px 
+        max-width: 130px
+        @media screen and (max-width: 1150px)
+            margin-top: 20px
             
-
