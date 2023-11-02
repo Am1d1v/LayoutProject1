@@ -229,8 +229,11 @@ img
         padding: 10px
         border: none
         cursor: pointer
-        @media screen and (max-width: 500px)
+        @media screen and (max-width: 540px)
             margin-top: 15px
+            margin-right: 10px
+            justify-content: center
+            align-items: center
         &-text
             margin-left: 15px
             text-transform: uppercase
@@ -270,6 +273,8 @@ img
             align-items: center
             text-transform: uppercase
             color: #000
+        @media screen and (max-width: 520px)
+            grid-template-columns: repeat(2, 1fr)
         @media screen and (max-width: 430px)
             grid-template-columns: repeat(1, 1fr)
     &-h2
@@ -278,6 +283,18 @@ img
     &-h4
         max-width: 172px
 
-
-
+.portfolio
+    &__img
+        width: 100%
+    &__grid
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        gap: 10px 0
+        justify-items: center
+        @media screen and (max-width: 1440px)
+            grid-template-columns: repeat(2, 1fr)
+        @media screen and (max-width: 960px)
+            grid-template-columns: repeat(1, 1fr)
+        
+    
 

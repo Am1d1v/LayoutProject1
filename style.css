@@ -283,9 +283,12 @@ img {
   border: none;
   cursor: pointer;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .request__btn {
     margin-top: 15px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
   }
 }
 .request__btn-text {
@@ -340,6 +343,11 @@ img {
   text-transform: uppercase;
   color: #000;
 }
+@media screen and (max-width: 520px) {
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 430px) {
   .services__grid {
     grid-template-columns: repeat(1, 1fr);
@@ -351,4 +359,24 @@ img {
 }
 .services-h4 {
   max-width: 172px;
+}
+
+.portfolio__img {
+  width: 100%;
+}
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 0;
+  justify-items: center;
+}
+@media screen and (max-width: 1440px) {
+  .portfolio__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 960px) {
+  .portfolio__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */
