@@ -358,13 +358,31 @@ img
             margin-top: 20px
             
 .reviews
-    padding: 100px 0
+    padding: 25px 0
     h2
         text-align: center
+    &__quotes
+        font-size: 90px
+        color: var(--accent-color)
+        height: 50px   
     &-span
         color: var(--accent-color)
     &-p
         color: var(--grey-color)
+    &__card
+        padding: 0  
+    &__grid
+        display: grid
+        gap: 10px
+        grid-template-columns: repeat(3, 1fr)
+        justify-content: center
+        &-item
+            max-width: 300px
+        @media screen and (max-width: 950px)
+            display: grid
+            grid-template-columns: repeat(1, 1fr)
+            justify-items: center
+            
 
 
 
