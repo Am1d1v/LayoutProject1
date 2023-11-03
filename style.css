@@ -491,4 +491,40 @@ img {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
+}
+
+.contacts {
+  margin-top: 60px;
+}
+.contacts h2 {
+  text-align: center;
+}
+.contacts__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+.contacts__grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+}
+.contacts__grid-item img {
+  height: 40px;
+  width: 40px;
+}
+@media screen and (max-width: 950px) {
+  .contacts__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 570px) {
+  .contacts__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.contacts__grid-title {
+  color: var(--grey-color);
 }/*# sourceMappingURL=style.css.map */
