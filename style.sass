@@ -409,19 +409,25 @@ img
 
 
 .footer
-    height: 50px
+    height: 90px
     background-color: #3f3f3f 
     align-items: center
     justify-content: center
     &-container
-        padding-top: 10px
+        padding-top: 30px
         display: flex
         justify-content: space-around
         color: #fff
+        @media screen and (max-width: 480px)
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
     a
         text-decoration: none
         color: #fff
-
+        @media screen and (max-width: 480px)
+            margin-top: 10px
 
 
 

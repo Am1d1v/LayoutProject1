@@ -530,18 +530,31 @@ img {
 }
 
 .footer {
-  height: 50px;
+  height: 90px;
   background-color: #3f3f3f;
   align-items: center;
   justify-content: center;
 }
 .footer-container {
-  padding-top: 10px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-around;
   color: #fff;
 }
+@media screen and (max-width: 480px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .footer a {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
