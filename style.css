@@ -69,7 +69,7 @@ img {
 }
 .header__title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   padding-top: 20px;
   margin-bottom: 112px;
@@ -199,10 +199,11 @@ img {
     padding: 57px 0;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 560px) {
   .info {
     max-height: 1000px;
     padding: 57px 0;
+    margin-top: 30px;
   }
 }
 
